@@ -153,3 +153,27 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .Juices,
+  .Cocktail,
+  .Desserts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header, .category {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
