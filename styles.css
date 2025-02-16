@@ -157,8 +157,9 @@ footer a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
+
   .header, .category {
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 2.8rem;
+    padding: 0;
   }
 }
