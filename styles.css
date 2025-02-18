@@ -4,15 +4,20 @@
   box-sizing: border-box;
 }
 
-.logo-container {
-  position: fixed;
-  top: 0;
+.logo-container { display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .bebos {
-  padding: 0px;
-  text-align: center;
-  padding: 1rem;
+
+  
+padding: 0.5rem;
+  max-height: 100px;
+  max-width:100px;
+ 
+
 }
 
 .navbar li a {
@@ -32,6 +37,7 @@
   bottom: 20px;
   position: fixed;
   gap: 5px;
+ 
   }
 .fa {
 padding: 10PX 10PX;
@@ -41,6 +47,10 @@ padding: 10PX 10PX;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: solid white 3px;
 }
 .fa-instagram {
   background: #ff3557;
@@ -84,6 +94,7 @@ body {
   padding: 1.5rem 0;
   font-size: 3rem;
   margin: 1rem 0;
+  border: solid white 3px;
 }
 
 .container {
